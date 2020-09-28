@@ -48,7 +48,15 @@ def get_filters():
         print('Cannot compute from given inputs. Error: {}'.format(e))
     print('-'*40)
 
+<<<<<<< HEAD
 #take input from user to obtain city, month, day
+||||||| 8578635
+
+
+
+=======
+
+>>>>>>> documentation
 def load_data(city, month, day):
     """
     Loads data for the specified city and filters by month and day if applicable.
