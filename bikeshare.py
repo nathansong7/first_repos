@@ -80,6 +80,7 @@ def load_data(city, month, day):
     except Exception as e:
         print('Cannot load. Error: {}'.format(e))
 
+
 def time_stats(df, city):
     """Displays statistics on the most frequent times of travel."""
 
@@ -113,7 +114,7 @@ def time_stats(df, city):
     print('-'*40)
 
 def station_stats(df, city):
-    """Displays statistics on the most popular stations and trip."""
+    #provide user info on stations/routes for given city
 
     print('\nCalculating The Most Popular Stations and Trip...\n')
     start_time = time.time()
